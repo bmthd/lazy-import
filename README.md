@@ -1,4 +1,10 @@
-# React + TypeScript + Vite
+# react-lazily resolution experiment
+
+This repository experiments with the resolution of multiple components imported from the same file with different Suspense boundaries using react-lazily.
+
+When we tried, both imports from the same module with different Suspense boundaries Suspend at the same time.
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
